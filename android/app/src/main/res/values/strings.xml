@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saku</string>
+    <string name="saku_widget_name">Saku Tambah Catatan</string>
+    <string name="saku_widget_description">Shortcut untuk membuka halaman tambah catatan.</string>
+</resources>

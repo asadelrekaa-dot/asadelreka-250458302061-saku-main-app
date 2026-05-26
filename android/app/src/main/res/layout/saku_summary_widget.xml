@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/saku_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@drawable/saku_widget_background"
+    android:padding="18dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/saku_widget_card_background"
+        android:padding="18dp">
+
+        <ImageView
+            android:id="@+id/saku_widget_logo"
+            android:layout_width="90dp"
+            android:layout_height="34dp"
+            android:layout_gravity="top|start"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitStart"
+            android:src="@drawable/saku_widget_logo" />
+
+        <ImageView
+            android:id="@+id/saku_widget_mascot"
+            android:layout_width="104dp"
+            android:layout_height="72dp"
+            android:layout_gravity="bottom|start"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/saku_widget_description"
+            android:scaleType="fitCenter"
+            android:src="@drawable/saku_widget_mascot" />
+
+        <TextView
+            android:id="@+id/saku_widget_plus"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center|end"
+            android:background="@drawable/saku_widget_plus_background"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="72sp"
+            android:textStyle="normal" />
+    </FrameLayout>
+</FrameLayout>

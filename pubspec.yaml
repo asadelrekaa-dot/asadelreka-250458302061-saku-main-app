@@ -1,0 +1,36 @@
+name: saku_pengeluaran
+description: A Flutter expense tracker app onboarding and auth flow.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^6.4.1
+  firebase_auth: ^6.5.1
+  firebase_core: ^4.9.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  google_sign_in: ^7.2.0
+  home_widget: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/asset onboarding 1.png
+    - assets/asset onboarding 2.png
+    - assets/background beranda biru.png
+    - assets/Maskot-dashboard.png
+    - assets/bg-ilst11.png
+    - assets/splashscreen-animation.png
+    - assets/icons/

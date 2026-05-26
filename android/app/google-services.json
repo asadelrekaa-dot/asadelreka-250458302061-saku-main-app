@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031922618269",
+    "project_id": "com-finproteam-saku",
+    "storage_bucket": "com-finproteam-saku.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031922618269:android:b4007334f31320dc08e974",
+        "android_client_info": {
+          "package_name": "com.finproteam.saku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031922618269-pcjb33npd609rte4fq7du5g463vsotnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finproteam.saku",
+            "certificate_hash": "0e8579d21d3d1a98137a08eabddf4a35b68258c0"
+          }
+        },
+        {
+          "client_id": "1031922618269-phk50lvphdrrk5m98s9h9nf2jj6rc1dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtWtrH7mVBqdqnvmFklMj_vlEWB-kO8H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031922618269-phk50lvphdrrk5m98s9h9nf2jj6rc1dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
